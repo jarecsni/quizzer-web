@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Quizzer - Password Recovery Form</h2>
+
+<form action="https://[YOUR_SERVERLESS_FUNCTION_URL]" method="post">
+  <label for="newPassword">New Password:</label><br>
+  <input type="password" id="newPassword" name="newPassword"><br>
+  <input type="hidden" id="recoveryCode" name="recoveryCode" value="[RECOVERY_CODE_FROM_URL]">
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
